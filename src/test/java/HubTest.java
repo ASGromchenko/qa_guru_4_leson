@@ -15,7 +15,7 @@ public class HubTest {
     Configuration.pageLoadStrategy = "eager";
     Configuration.browserSize = "1920x1080";
     Configuration.baseUrl = "https://github.com/";
-    Configuration.holdBrowserOpen = true;
+    Configuration.holdBrowserOpen = false;
     Configuration.timeout = 5000;
 
     open("/selenide/selenide");
