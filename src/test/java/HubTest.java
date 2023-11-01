@@ -11,7 +11,7 @@ import static com.codeborne.selenide.Selenide.open;
 public class HubTest {
 
     @BeforeAll
-    static void BeforeAll() {
+    static void beforeAll() {
         Configuration.pageLoadStrategy = "eager";
         Configuration.browserSize = "1920x1080";
         Configuration.baseUrl = "https://github.com/";
